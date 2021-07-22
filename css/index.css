@@ -31,9 +31,11 @@ html, body {font-family:'LGSmHaL'; font-size: 13px; letter-spacing: -1px;}
 			.navi-wrapper .logo a {display: inline-block; width: 100%; height: 100%;}
 		.navi-wrapper .navi-wrap {font-size: 18px; color: #f1f1f1; float: right;}
 		.navi-wrapper .navi {float: left; padding: 16px 14px 30px 12px; height: 66px;}
-		.navi-wrapper .navi .sub-wrap {position: absolute; bottom: -300px; left: 0; height: 300px; width: 100%; background-image: linear-gradient(#ccc, #f1f1f1);}
+			.navi-wrapper .navi .sub-wrap {position: absolute; top: 66px; left: 0; height: 0; width: 100%; background-image: linear-gradient(#ccc, #f1f1f1); transition: all .35s; overflow: hidden;}
 
 		.navi-wrapper .navi:hover {color: #333; background-color: #ccc;}
+		.navi-wrapper .navi:hover > .sub-wrap {height: 300px;}
+
 		.navi-wrapper .navi:nth-child(12) > span {opacity: .5;}
 
   .header-wrapper .navi-wrapper2 {background-color: #ae1a4a;}
