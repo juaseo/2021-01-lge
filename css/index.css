@@ -44,8 +44,23 @@ html, body {font-family:'LGSmHaL'; font-size: 13px; letter-spacing: -1px;}
 		.sub-wrapper .sub-navi {}
 		.sub-wrapper .sub-prd {}
 		.sub-wrapper .sub-prd > ul {}
-		.sub-wrapper .sub-prd > ul > .prd{}
+		.sub-wrapper .sub-prd > ul > .prd {}
 
 
 
   .navi-wrapper2 {background-color: #ae1a4a;}
+
+
+	/* media */
+	@media (max-width:1200px) {
+		
+	}
+	@media (max-width:992px) {
+
+	}
+	@media (max-width:768px) {
+
+	}
+	@media (max-width:576px) {
+
+	}
