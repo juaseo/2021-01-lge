@@ -15,7 +15,7 @@ background: #333 ;
 
 @import './lge-font.css';
 
-html, body {font-family:'LGSmHaL'; font-size: 13px; letter-spacing: -1px;}
+html, body {font-family: 'LGSmHaR'; font-size: 13px; letter-spacing: -1px;}
 .wrapper {max-width: 1600px; margin: auto; padding: 0 2rem;}
 .wrapper2 {max-width: 1300px; margin: auto; padding: 0 2rem;}
 
@@ -29,7 +29,7 @@ html, body {font-family:'LGSmHaL'; font-size: 13px; letter-spacing: -1px;}
 		.navi-wrapper {background-color: #333; position: relative; z-index: 3;}
 		.navi-wrapper .logo {width: 164px; height: 43px; float: left; background: url('../img/common.png');}
 			.navi-wrapper .logo a {display: inline-block; width: 100%; height: 100%;}
-		.navi-wrapper .navi-wrap {font-size: 1.25rem; color: #f1f1f1; float: right; display:none}
+		.navi-wrapper .navi-wrap {font-size: 1.25rem; color: #f1f1f1; float: right; display: none;}
 		.navi-wrapper .mb-navi-wrap {float: right; font-size: 1.75rem; color: #f1f1f1; padding: .5em 0 .75em 0;}
 		.navi-wrapper .navi {float: left; padding: .875em .75em 1.75em .75em; height: 63px;}
 		.navi-wrapper .navi:hover {background-color: #ccc;}
@@ -38,26 +38,35 @@ html, body {font-family:'LGSmHaL'; font-size: 13px; letter-spacing: -1px;}
 		.navi-wrapper .navi:last-child > span {opacity: .5;}
 		
 		.sub-wrapper {position: absolute; top: 63px; left: 0; height: 0; width: 100%; background-image: linear-gradient(#ccc, #f1f1f1); transition: height .35s; overflow: hidden; z-index: 1; box-shadow: 0 6px 6px rgba(0, 0, 0, 0.4);}
-		.sub-wrapper .sub-wrap {float: left; width: 25%;}
-		.sub-wrapper .sub-wrap .title {}
-		.sub-wrapper .sub-wrap .title > div {}
-		.sub-wrapper .sub-wrap .title > h2 {}
-		.sub-wrapper .sub-navi {}
+		.sub-wrapper > .wrapper2 {height: 100%; padding: 1.5% 0;}
+		.sub-wrapper .sub-wrap {float: left; width: 25%; height: 100%; padding: 0 1.25%; color: #333;}
+		.sub-wrapper .sub-wrap:not(:last-child) {border-right: 1px solid #bbb;}
+		.sub-wrapper .sub-wrap.title {text-align: center;}
+		.sub-wrapper .sub-wrap.title > div {padding: 5% 10% 10% 10%;}
+		.sub-wrapper .sub-wrap.title > h2 {font-size: .875em; line-height: 1.75;}
+		.sub-wrapper .sub-wrap.title > h2 span {font-size: 1.25em; color: #ae1a4a;}
+		.sub-wrapper .sub-wrap.title:hover a {text-decoration: underline;}
+		.sub-wrapper .sub-navi {padding: .5em 0;}
+		.sub-wrapper .sub-navi:first-child {padding: 0 0 .75em 0;}
+		.sub-wrapper .sub-navi::after {display: inline-block; color: #ae1a4a; content: '＞'; padding-left: 0.25em;}
+		.sub-wrapper .sub-prd {}
+		.sub-wrapper .sub-prd > ul {}
+		.sub-wrapper .sub-prd > ul > .prd {}
 
 /* **************************** 반응형 ****************************** */
-@media (max-width: 576px) {
+@media (min-width: 576px) {
 	
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) {
 
 }
-@media (max-width:1200px) {
+@media (min-width:1200px) {
 
 }
-@media (max-width:1400px) {
+@media (min-width:1400px) {
 	.navi-wrapper .navi-wrap {display: block;}
 	.navi-wrapper .mb-navi-wrap {display: none;}
 }
