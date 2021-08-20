@@ -49,9 +49,11 @@ html, body {font-family: 'LGSmHaR'; font-size: 13px; letter-spacing: -1px;}
 		.sub-wrapper .sub-navi {padding: .5em 0;}
 		.sub-wrapper .sub-navi:first-child {padding: 0 0 .75em 0;}
 		.sub-wrapper .sub-navi::after {display: inline-block; color: #ae1a4a; content: '＞'; padding-left: 0.25em;}
-		.sub-wrapper .sub-prd {}
-		.sub-wrapper .sub-prd > ul {}
-		.sub-wrapper .sub-prd > ul > .prd {}
+		.sub-wrapper .sub-prd {font-size: .8em; padding: .25em 0;}
+		.sub-wrapper .sub-prd a:hover {text-decoration: underline;}
+		.sub-wrapper .sub-prd > ul {padding: .5em 0;}
+		.sub-wrapper .sub-prd > ul > .prd {font-size: 1.05em; color: #121212; float: left;}
+		.sub-wrapper .sub-prd > ul > .prd::before {display: inline-block; content: '·'; padding: 0 0.25em 0 0.75em;}
 
 /* **************************** 반응형 ****************************** */
 @media (min-width: 576px) {
