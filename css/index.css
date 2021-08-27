@@ -99,7 +99,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 13px; letter-spacing: -1px;}
 
 
 .main-wrapper .pager-wrapper {text-align: center; margin: 2em 0;}
-.main-wrapper .pager-wrapper > a {font-size: 1em;vertical-align: middle; margin: 0 0.25em; color: #ccc;}
+.main-wrapper .pager-wrapper > a {font-size: 1em;vertical-align: middle; margin: 0 0.25em; color: #ccc; transition: all .5s;}
 .main-wrapper .pager-wrapper > a.pager {display: inline-block; width: 18px; height: 18px; border: 2px solid #ccc; border-radius: 9px;}
 .main-wrapper .pager-wrapper > a.pager.active {border: 2px solid #ae1a4a; width: 28px; background-color: #ae1a4a;}
 .main-wrapper .pager-wrapper > a.bt-play.active {color: #ae1a4a;}
@@ -123,7 +123,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 13px; letter-spacing: -1px;}
 @media (min-width: 992px) {
 	.wrapper {padding: 0 2rem;}
 	.wrapper2 {padding: 0 2rem;}
-	.navi-wrapper2 .icon-wrap > .icon {float: left; margin: .625em;}
+	.navi-wrapper2 .icon-wrap > .icon {float: left; margin: .825em;}
 	.navi-wrapper2 .icon-wrap img {margin-right: .5em; width: auto;}
 	.navi-wrapper2 .icon-wrap span {margin-right: .5em;}
 
