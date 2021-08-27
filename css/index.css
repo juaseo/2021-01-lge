@@ -18,6 +18,7 @@ background: #333 ;
 html, body {font-family: 'LGSmHaR'; font-size: 13px; letter-spacing: -1px;}
 .wrapper {max-width: 1600px; margin: auto; padding: 0 .5rem;}
 .wrapper2 {max-width: 1300px; margin: auto; padding: 0 .5rem;}
+.wrapper3 {max-width: 1414px; margin: auto; padding: 0 .5rem; overflow: hidden;}
 
 .disp-table {display: table;}
 .disp-cell {display: table-cell; text-align: center; vertical-align: middle;}
@@ -93,8 +94,8 @@ html, body {font-family: 'LGSmHaR'; font-size: 13px; letter-spacing: -1px;}
 .main-wrapper .slide > .content > .slogan {padding: 1em 0; transition: all 1s; line-height: 1.25em;}
 .main-wrapper .slide > .content > .slogan > br {display: block;} 
 .main-wrapper .slide > .content > .brand {padding-bottom: 1em; transition: all 1s;}
-.main-wrapper .slide > .content > .brand > img {max-width: 40%; transition: all 1s;}
-.main-wrapper .slide > .content button {border: 1px solid #333; background-color: transparent; padding: .5em 2em; font-size: .825em; outline: none; font-family: inherit;}
+.main-wrapper .slide > .content > .brand > img {max-width: 60%; transition: all 1s;}
+.main-wrapper .slide > .content button {border: 1px solid #333; background-color: transparent; padding: .5em 2em; font-size: .625em; outline: none; font-family: inherit;}
 
 
 
@@ -104,6 +105,22 @@ html, body {font-family: 'LGSmHaR'; font-size: 13px; letter-spacing: -1px;}
 .main-wrapper .pager-wrapper > a.pager.active {border: 2px solid #ae1a4a; width: 28px; background-color: #ae1a4a;}
 .main-wrapper .pager-wrapper > a.bt-play.active {color: #ae1a4a;}
 .main-wrapper .pager-wrapper > a.bt-pause.active {color: #ae1a4a;}
+
+
+
+
+
+/* ************************** link-wrapper ****************************** */
+.link-wrapper .link-wrap {margin: 1.5em 0;}
+.link-wrapper .link-wrap:first-child {width: 100%; margin-left: 0%;}
+.link-wrapper .link-wrap:last-child {width: 100%; margin-left: 0%;}
+.link-wrapper .link-wrap:first-child > li {width: 100%; margin: 1% 0%;}
+.link-wrapper .link-wrap:last-child > li {width: 100%; margin: 1% 0%;}
+.link-wrapper .link-wrap > li {float: left; background-color: #000;}
+.link-wrapper .link-wrap > li img {transition: all .5s; opacity: .9;}
+.link-wrapper .link-wrap > li:hover img {opacity: 1;}
+
+
 
 
 
@@ -119,6 +136,11 @@ html, body {font-family: 'LGSmHaR'; font-size: 13px; letter-spacing: -1px;}
 	.wrapper2 {padding: 0 1rem;}
 	.main-wrapper .slide { padding: 8% 12% 12% 12%; background-position: center;}
 	.main-wrapper .slide > .content > .brand > img {max-width: 60%;}
+
+	.link-wrapper .link-wrap:first-child {width: 101%; margin-left: -0.5%;}
+	.link-wrapper .link-wrap:last-child {width: 102%; margin-left: -1%;}
+	.link-wrapper .link-wrap:first-child > li {width: 32.3333%; margin: .25% .5%;}
+	.link-wrapper .link-wrap:last-child > li {width: 48%; margin: .25% 1%;}
 }
 @media (min-width: 992px) {
 	.wrapper {padding: 0 2rem;}
