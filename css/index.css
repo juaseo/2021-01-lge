@@ -205,9 +205,34 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 .info-wrapper > .info-wrap > .info:not(:first-child) > .fa {bottom: 10%; right: 5%;}
 
 .info-wrapper > .sns-wrap {text-align: center;}
-.info-wrapper > .sns-wrap > .sns {display:inline-block; text-align: center; padding: 1em .5em;}
+.info-wrapper > .sns-wrap > .sns {display:inline-block; text-align: center; padding: 1em;}
 .info-wrapper > .sns-wrap > .sns > .title {color: #999; padding-top: 1em;}
 
+
+
+/********************* footer-wrapper **********************/
+.footer-wrapper {background-color: #333; color: #f9f9f9; line-height: 1.5; padding-bottom: 2em;}
+.footer-wrapper a:hover {text-decoration: underline;}
+.footer-wrapper .line {border-bottom: 1px solid #444;}
+.footer-wrapper > .notice-wrapper {padding: .75em .5em;}
+.footer-wrapper > .notice-wrapper img {vertical-align: middle; margin-right: .75em;}
+
+.footer-wrapper > .navi-wrapper {padding: 1em .5em; margin-bottom: .5em;}
+.footer-wrapper > .navi-wrapper > .navi-wrap {float: left; width: 100%; margin-bottom: 1em;}
+.footer-wrapper > .navi-wrapper > .navi-wrap > .navi {float: left; width: 100%; margin-bottom: .5em;}
+/* .footer-wrapper > .navi-wrapper > .navi-wrap > .navi:not(:last-child)::after {content: '|'; display: inline-block; padding: 0 1em;} */
+.footer-wrapper > .navi-wrapper > .link-wrap {float: right; width: 100%; border-top: 1px solid #444; border-bottom: 1px solid #444; padding: 1em 0;}
+.footer-wrapper > .navi-wrapper > .link-wrap > div {float: left;}
+.footer-wrapper > .navi-wrapper > .link-wrap > div:first-child {padding-right: 2em;}
+
+.footer-wrapper > .addr-wrapper {font-size: .925em; margin-bottom: 1em;}
+.footer-wrapper > .addr-wrapper > .addr-wrap {float: left; width: 100%; margin-bottom: 1em;}
+.footer-wrapper > .addr-wrapper > .cert-wrap {float: right; width: 100%; padding-top: 1em; border-top: 1px solid #444; border-bottom: 1px solid #444;}
+.footer-wrapper > .addr-wrapper > .cert-wrap img {float: left; vertical-align: middle; transform: translateY(-12px);}
+
+.footer-wrapper > .copy-wrapper {font-size: .925em;}
+.footer-wrapper > .copy-wrapper > .copyright {float: left; width: 100%; margin-bottom: 1em;}
+.footer-wrapper > .copy-wrapper > .copyright-kr {float: right; width: 100%; margin-bottom: 1em;}
 
 
 
@@ -224,6 +249,8 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 	.wrapper {padding: 0 1rem;}
 	.wrapper2 {padding: 0 1rem;}
 	.main-wrapper .slide {padding-top: 50%;}
+	.main-wrapper .slide > .content > .slogan {padding: 1em 0;} 
+	.main-wrapper .slide > .content > .brand {padding-bottom: 1em;}
 	
 	.link-wrapper .link-wrap:first-child {width: 101%; margin-left: -0.5%;}
 	.link-wrapper .link-wrap:last-child {width: 102%; margin-left: -1%;}
@@ -251,9 +278,6 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 	.header-wrapper .navi-wrapper2 .icon-wrap span {margin-right: 0.5em;}
 	.main-wrapper .slide {padding-top: 40%;}
 	.main-wrapper .slide > .content {font-size: 1.875em;}
-	.main-wrapper .slide > .content {font-size: 1.5em; position: absolute; top: 17.5%; left: 15%;}
-	.main-wrapper .slide > .content > .slogan {padding: 1em 0;}
-	.main-wrapper .slide > .content > .brand {padding-bottom: 1em;}
 	.main-wrapper .slide > .content > .slogan > br {display: none;} 
 	.main-wrapper .slide > .content > .brand > img {max-width: 80%;} 
 
@@ -275,6 +299,17 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 	.info-wrapper > .info-wrap > .info > .pop-wrap > br {display: block;}
 	.info-wrapper > .info-wrap > .info > .pop-wrap > span {display: inline;}
 	.info-wrapper > .info-wrap > .info > .fa {display: block;}
+
+	.footer-wrapper > .navi-wrapper > .navi-wrap {width: auto;}
+	.footer-wrapper > .navi-wrapper > .navi-wrap > .navi {width: auto; margin-bottom: 0;}
+	.footer-wrapper > .navi-wrapper > .navi-wrap > .navi:not(:last-child)::after {content: '|'; display: inline-block; padding: 0 1em;}
+	.footer-wrapper > .navi-wrapper > .link-wrap {width: auto;  border-top: none; border-bottom: none; padding: 0;}
+
+	.footer-wrapper > .addr-wrapper > .addr-wrap {width: auto; margin-bottom: 0;}
+	.footer-wrapper > .addr-wrapper > .cert-wrap { width: auto; padding-top: 0; border-top: none; border-bottom: none;}
+
+	.footer-wrapper > .copy-wrapper > .copyright {width: auto;}
+	.footer-wrapper > .copy-wrapper > .copyright-kr {width: auto;}
 }
 
 @media (min-width: 1400px) {
