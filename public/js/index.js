@@ -5,6 +5,16 @@ $(window).scroll(function() {
 })
 
 function topAni() {
+	$('html, body').stop().animate({"scrollTop":0}, 300)
+}
+
+$(window).scroll(function() {
+	var sct = $(this).scrollTop()
+	if(sct > 200) $("aside.bt-top").addClass('active')
+	else $("aside.bt-top").removeClass('active')
+})
+
+function topAni() {
 	$('html, body').stop().animate({"scrollTop": 0}, 300)
 }
 

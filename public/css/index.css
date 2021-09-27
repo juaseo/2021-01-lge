@@ -48,8 +48,8 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 
 .wrapper3 > h3.title {font-size: 1.5em; text-align: center; line-height: 1.5; position: relative; margin-bottom: 2em;}
 .wrapper3 > h3.title > span {border-bottom: 1px solid #999; display: inline-block;}
-.wrapper3 > h3.title > .bt-more {position: absolute; top: 0; right: 0; font-size: 0.625em; color: #777;}
-.wrapper3 > h3.title > .bt-more::after {display: inline-block; box-sizing: border-box; content: '+'; width: 22px; height: 22px; border-radius: 50%; border: 1px solid #bbb; font-size: 1.75em; line-height: 22px; text-align: center; transform: translateY(3px); margin-left: 8px;}
+.wrapper3 > h3.title > .bt-more {display: none;}
+.wrapper3 > h3.title > .bt-more::after {display: none; box-sizing: border-box; content: '+'; width: 22px; height: 22px; border-radius: 50%; border: 1px solid #bbb; font-size: 1.75em; line-height: 22px; text-align: center; transform: translateY(3px); margin-left: 8px;}
 
 /********************* header-wrapper **********************/
 .header-wrapper {}
@@ -236,6 +236,15 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 
 
 
+/********************* aside **********************/
+aside.wing-wrapper {position: fixed; bottom: 70px; right: 10px; z-index: 100;}
+aside.wing-wrapper li {width: 60px;padding: 4px;}
+aside.bt-top {position: fixed;bottom: 8px; right: 8px; z-index: 100; display: none;}
+aside.bt-top.active {display: block;}
+aside.bt-top > a {display: block; background-image: url('../img/common.png'); background-position: -150px -200px; width: 50px; height: 50px;}
+
+
+
 
 
 
@@ -286,6 +295,9 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 
 	.evt-wrapper .cont-wrapper > div.banner-wrap {width: 60%;}
 	.evt-wrapper .cont-wrapper > div.cont-wrap {width: 40%;}
+
+	.wrapper3 > h3.title > .bt-more {display: inline-block; position: absolute; top: 0; right: 0; font-size: 0.625em; color: #777;}
+	.wrapper3 > h3.title > .bt-more::after {display: inline-block; box-sizing: border-box; content: '+'; width: 22px; height: 22px; border-radius: 50%; border: 1px solid #bbb; font-size: 1.75em; line-height: 22px; text-align: center; transform: translateY(3px); margin-left: 8px;}
 
 }
 
