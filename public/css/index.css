@@ -128,7 +128,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 .main-wrapper .bt-swiper.bt-prev {left: 3%;}
 .main-wrapper .bt-swiper.bt-next {right: 3%;}
 
-.main-wrapper .slide > .content {font-size: 1.5em; position: absolute; top: 17.5%; left: 15%;}
+.main-wrapper .slide > .content {font-size: 1.25em; position: absolute; top: 17.5%; left: 15%;}
 .main-wrapper .slide > .content > .slogan {padding: .5em 0; transition: all 1s; line-height: 1.25;} 
 .main-wrapper .slide > .content > .slogan > br {display: block;} 
 .main-wrapper .slide > .content > .brand {padding-bottom: .5em; transition: all 1s;}
