@@ -48,7 +48,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 
 .wrapper3 > h3.title {font-size: 1.5em; text-align: center; line-height: 1.5; position: relative; margin-bottom: 2em;}
 .wrapper3 > h3.title > span {border-bottom: 1px solid #999; display: inline-block;}
-.wrapper3 > h3.title > .bt-more {display: none;}
+.wrapper3 > h3.title > .bt-more {display: none; cursor: pointer;}
 .wrapper3 > h3.title > .bt-more::after {display: none; box-sizing: border-box; content: '+'; width: 22px; height: 22px; border-radius: 50%; border: 1px solid #bbb; font-size: 1.75em; line-height: 22px; text-align: center; transform: translateY(3px); margin-left: 8px;}
 
 /********************* header-wrapper **********************/
@@ -143,7 +143,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 .link-wrapper .link-wrap:first-child > li {width: 100%; margin: 1% 0;}
 .link-wrapper .link-wrap:last-child > li {width: 100%; margin: 1% 0;}
 .link-wrapper .link-wrap > li {float: left; background-color: #000;}
-.link-wrapper .link-wrap > li img {transition: all .75s; opacity: .9;}
+.link-wrapper .link-wrap > li img {transition: all .75s; opacity: .9; cursor: pointer;}
 .link-wrapper .link-wrap > li:hover img {opacity: 1;}
 
 
@@ -172,7 +172,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 .evt-wrapper .cont-wrapper {background-color: #fff; margin-bottom: 2em;}
 .evt-wrapper .cont-wrapper > div {float: left;}
 .evt-wrapper .cont-wrapper > div.banner-wrap {width: 100%; max-width: 800px;}
-.evt-wrapper .cont-wrapper > div.cont-wrap {width: 100%; padding: 3%;}
+.evt-wrapper .cont-wrapper > div.cont-wrap {width: 100%; padding: 3%; cursor: pointer;}
 .evt-wrapper .cont-wrapper > div.cont-wrap > h4.title {font-size: 1.5em;}
 .evt-wrapper .cont-wrapper > div.cont-wrap > p.content {font-size: 1.25em; color: #777; line-height: 1.5; padding: 2em 0;}
 .evt-wrapper .cont-wrapper > div.cont-wrap > div.date {font-size: 1.125em; padding-bottom: 2em;}
@@ -180,7 +180,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 .evt-wrapper .cont-wrapper > div.cont-wrap > button.bt-detail:hover {background-color: #333; color: #f9f9f9;}
 .evt-wrapper .list-wrapper {width: 100%;}
 .evt-wrapper .list-wrapper > .list {float: left; width: 100%; background-color: #fff;}
-.evt-wrapper .list-wrapper > .list > .cont-wrap {padding: 1.5em 0.5em; text-align: center; letter-spacing: -1px; line-height: 1.25;}
+.evt-wrapper .list-wrapper > .list > .cont-wrap {padding: 1.5em 0.5em; text-align: center; letter-spacing: -1px; line-height: 1.25; cursor: pointer;}
 .evt-wrapper .list-wrapper > .list > .cont-wrap .title {font-size: 1.125em; padding: 0.5em 0;}
 .evt-wrapper .list-wrapper > .list > .cont-wrap .content {color: #555; padding: 0.5em 0;}
 .evt-wrapper .list-wrapper > .list > .cont-wrap .date {color: #555; padding: 0.5em 0;}
